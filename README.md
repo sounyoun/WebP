@@ -6,4 +6,4 @@ week 2
 - 2주차 실습
 - table, 시맨틱태그 등
 
-  ![image](https://github.com/user-attachments/assets/7f5a0119-fa92-42ad-9641-4e8f8a09c6e5)
+![image](https://github.com/user-attachments/assets/863dec14-c1eb-4910-83f3-d8dc0b1eba68)
