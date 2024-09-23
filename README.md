@@ -15,4 +15,4 @@ week 4
 - javascript 객체 생성 연습
 - new Object(직접 객체), 리터럴 표기법, prototype(생성자 함수)
 
-![image](https://github.com/user-attachments/assets/863dec14-c1eb-4910-83f3-d8dc0b1eba68)
+![image](https://github.com/user-attachments/assets/c175dd3d-cc62-471b-9542-913f8d649978)
