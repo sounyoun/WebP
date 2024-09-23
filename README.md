@@ -6,4 +6,8 @@ week 2
 - 2주차 실습
 - table, 시맨틱태그 등
 
+week 3
+- 3주차 실습
+- css (padding, color, font 등)
+
 ![image](https://github.com/user-attachments/assets/863dec14-c1eb-4910-83f3-d8dc0b1eba68)
