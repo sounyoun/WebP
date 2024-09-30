@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연습문제 8-6</title>
+    <script>
+        function doShow() {
+            let ui = prompt('HTML 텍스트 혹은 그냥 텍스트를 입력하세요');
+            let p = document.getElementById('p');
+            p.innerHTML = ui;
+
+            // 아니면 id빼고 doShow(this)
+            // oncick = "this.innerHTML = prompt('~~~');"
+        }
+    </script>
+</head>
+<body>
+    <h2>innerHTML</h2>
+    <hr>
+    <p id="p" onclick="doShow()">이번 여름에는 어디로 갈까요?</p>
+</body>
+</html>
