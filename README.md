@@ -18,7 +18,7 @@ week 4
 week 5
 - 5주차 실습
 - 객체 만들기 복습
-- DOM tree, innerHTML, getElementsById(), appendChild() ...
+- DOM tree, innerHTML, getElementsById(), appendChild(), 동적 객체 생성 ...
 - 8장 연습문제 (4, 6, 9)
 
 ![image](https://github.com/user-attachments/assets/bd239dde-fe9c-4f6b-8d0f-91a147ddc3e5)
