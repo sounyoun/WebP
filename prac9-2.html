@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실습문제 9-2</title>
+    <script>
+        function showImage(obj) {
+            let img = new Image();
+            img.src = obj.value;
+            obj.parentElement.appendChild(img);
+        }
+
+        function showImage2(o) {
+            let img = document.getElementById("img");
+            img.src = o.value;
+        }
+    </script>
+</head>
+<body>
+    <h2>라디오 버튼을 클릭하면 이미지를 출력합니다</h2>
+    <hr>
+    <input type="radio" name="fruit" value="./img/banana.jfif" onclick="showImage2(this)">바나나
+    <input type="radio" name="fruit" value="./img/mango.jfif" onclick="showImage2(this)">망고
+    <input type="radio" name="fruit" value="./img/apple.jfif" onclick="showImage2(this)">사과
+    <br>
+    <img src="" alt="" id="img">
+</body>
+</html>
