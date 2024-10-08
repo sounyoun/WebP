@@ -21,4 +21,9 @@ week 5
 - DOM tree, innerHTML, getElementsById(), appendChild(), 동적 객체 생성 ...
 - 8장 연습문제 (4, 6, 9)
 
+week 6
+- 9장 연습문제
+- 9-2 : new Image(), 이벤트리스너 onclick
+- 9-3 : 이벤트 리스너 onkeydown, e.key ...
+
 ![image](https://github.com/user-attachments/assets/bd239dde-fe9c-4f6b-8d0f-91a147ddc3e5)
