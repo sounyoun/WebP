@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실습문제 9-10</title>
+    <style>
+        input[type=text] {
+            margin: 10px;
+            width: 350px;
+        }
+        input[type=button] {
+            margin: 3px 10px;
+            width: 70px;
+            height: 30px;
+        }
+    </style>
+    <script>
+    function input(o) {
+        let text = document.getElementById('text');
+        if (o.value == "BACK") {
+            text.value = text.value.slice(0, text.value.length-1);
+            if (text.value.length < 1) {
+                text.value = '0';
+            }
+        }
+        else if (o.value == "CE" || o.value == "C") {
+            text.value = '0';
+        }
+        else {
+            if (text.value == '0') {
+                text.value = o.value;
+            }
+            else {
+                text.value += o.value;
+            }
+        }
+    }
+    function answer() {
+        let text = document.getElementById('text');
+        text.value = eval(text.value);
+    }
+    // or input()에서 value == '=' 이면 answer()
+    
+    </script>
+</head>
+<body>
+    <h2>계산기 만들기</h2>
+    <hr>
+    <input type="text" id="text" value="0">
+    <br>
+    <!-- <button type="button">BACK</button> -->
+    <input type="button" value="BACK" onclick="input(this)">
+    <input type="button" value="CE" onclick="input(this)">
+    <input type="button" value="C" onclick="input(this)">
+    <input type="button" value="=" onclick="answer()">
+    <br>
+    <input type="button" value="7" onclick="input(this)">
+    <input type="button" value="8" onclick="input(this)">
+    <input type="button" value="9" onclick="input(this)">
+    <input type="button" value="/" onclick="input(this)">
+    <br>
+    <input type="button" value="4" onclick="input(this)">
+    <input type="button" value="5" onclick="input(this)">
+    <input type="button" value="6" onclick="input(this)">
+    <input type="button" value="*" onclick="input(this)">
+    <br>
+    <input type="button" value="1" onclick="input(this)">
+    <input type="button" value="2" onclick="input(this)">
+    <input type="button" value="3" onclick="input(this)">
+    <input type="button" value="-" onclick="input(this)">
+    <br>
+    <input type="button" value="0" onclick="input(this)">
+    <input type="button" value="+" onclick="input(this)">
+    <input type="button" value="NONE">
+    <input type="button" value="NONE">
+
+</body>
+</html>
