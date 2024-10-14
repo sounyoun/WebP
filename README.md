@@ -26,4 +26,9 @@ week 6
 - 9-2 : new Image(), 이벤트리스너 onclick
 - 9-3 : 이벤트 리스너 onkeydown, e.key ...
 
+week 7
+- 10장 연습문제
+- 10-5, 10-6
+- setInterval(), clearInterval() // setTimeout(), clearTimeout()
+
 ![image](https://github.com/user-attachments/assets/bd239dde-fe9c-4f6b-8d0f-91a147ddc3e5)
