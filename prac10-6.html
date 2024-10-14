@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실습문제 10-6</title>
+    <script>
+        // head에 script 작성하는 경우
+        let clock;
+        let timer;
+        function start() {
+            timer = setInterval('showTime();', 1000);
+        }
+        
+        function showTime() {
+            clock = document.getElementById('clock');
+            let time = new Date();
+            clock.innerHTML = time.toLocaleTimeString();
+        }
+
+        function stop_start_clock() {
+            if (timer == null) {
+                timer = setInterval('showTime();', 1000);
+                clock.style.color = 'black';
+            }
+            else {
+                clearInterval(timer);
+                clock.style.color = 'gray';
+                timer = null;
+            }
+        }
+    </script>
+</head>
+<body onload="start()">
+    <h2>div 태그에 시계만들기</h2>
+    <hr>
+    <div id="clock" onclick="stop_start_clock()">
+
+    </div>
+</body>
+</html>
