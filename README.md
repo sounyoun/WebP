@@ -31,4 +31,8 @@ week 7
 - 10-5, 10-6
 - setInterval(), clearInterval() // setTimeout(), clearTimeout()
 
+week 9
+- Apache 이용해서 쿠키 확인
+- 세션스토리지 vs 로컬스토리지
+
 ![image](https://github.com/user-attachments/assets/bd239dde-fe9c-4f6b-8d0f-91a147ddc3e5)
