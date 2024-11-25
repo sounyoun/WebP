@@ -35,4 +35,22 @@ week 9
 - Apache 이용해서 쿠키 확인
 - 세션스토리지 vs 로컬스토리지
 
+week 10
+- 13장 예제 1번, 2번
+- 웹워커 생성 및 통신
+- postMessage(), onmessage, addWorker, newWorker()
+
+week 11
+- JavaScript Debugger
+- ES6, 백틱
+- for of, forEach(), 화살표 함수
+
+week 12
+- javascript 고급 구문
+- 함수형 프로그래밍 연습
+
+week 13
+- Module 활용
+- web server 만들기
+
 ![image](https://github.com/user-attachments/assets/bd239dde-fe9c-4f6b-8d0f-91a147ddc3e5)
