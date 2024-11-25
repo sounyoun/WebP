@@ -52,6 +52,6 @@ week 12
 week 13
 - node.js : 비동기, 이벤트, single-thread, non-blocking
 - web server 만들기 실습
-- createServer(), server.listen(), server.close() ...
+- createServer(), server.listen(), server.close(), server.on() ...
 
 ![image](https://github.com/user-attachments/assets/bd239dde-fe9c-4f6b-8d0f-91a147ddc3e5)
