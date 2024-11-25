@@ -43,14 +43,15 @@ week 10
 week 11
 - JavaScript Debugger
 - ES6, 백틱
-- for of, forEach(), 화살표 함수
+- for of, forEach(), 화살표 함수 ...
 
 week 12
 - javascript 고급 구문
 - 함수형 프로그래밍 연습
 
 week 13
-- Module 활용
-- web server 만들기
+- node.js : 비동기, 이벤트, single-thread, non-blocking
+- web server 만들기 실습
+- createServer(), server.listen(), server.close() ...
 
 ![image](https://github.com/user-attachments/assets/bd239dde-fe9c-4f6b-8d0f-91a147ddc3e5)
