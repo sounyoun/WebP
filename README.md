@@ -55,6 +55,7 @@ week 13
 - createServer(), server.listen(), server.close(), server.on() ...
 
 week 14
+- express 써보기
 - use() : 미들웨어, 함수 나열, 순차적으로 실행
 - get() : 경로를 주고 라우팅
 - get방식(query), post방식(body)
