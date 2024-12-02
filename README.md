@@ -54,4 +54,9 @@ week 13
 - web server 만들기 실습
 - createServer(), server.listen(), server.close(), server.on() ...
 
+week 14
+- use() : 미들웨어, 함수 나열, 순차적으로 실행
+- get() : 경로를 주고 라우팅
+- get방식(query), post방식(body)
+
 ![image](https://github.com/user-attachments/assets/bd239dde-fe9c-4f6b-8d0f-91a147ddc3e5)
