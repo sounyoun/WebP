@@ -22,7 +22,7 @@ week 5
 - prac8-4.html : 계산식이 써있고, '답'을 클릭하면 계산 결과 출력
 - prac8-6.html : prompt 창의 내용을 innerHTML 이용하여 변경
 - prac8-9.html : prompt 창을 이용해서 라면 끓이는 순서 하나씩 삽입
-- (**과제**)practice8-10.html : '답보기'버튼을 눌러 <p>객체 동적 생성, 삭제
+- (**과제**)practice8-10.html : '답보기'버튼을 눌러 객체 동적 생성, 삭제
 
 week 6
 - 이벤트 핸들링 코드 작성 실습
