@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>일기 쓰기</title>
+</head>
+<body>
+    <h2>일기 쓰기</h2>
+    <p>오늘 <span id="date"></span></p>
+    <textarea id="content" rows="10" cols="50" placeholder="일기를 작성하세요."></textarea><br>
+    <button onclick="saveDiary()">저장</button>
+    <button onclick="viewDiary()">보기</button>
+
+    <script>
+        // 오늘 날짜 출력
+        document.getElementById("date").innerText = new Date().toISOString().split('T')[0];
+        //toISOString().split('T')[0] : 2024-10-24
+
+        function saveDiary() {
+            const date = document.getElementById("date").innerText; // 날짜 가져오기
+            const content = document.getElementById("content").value; // 일기 내용 가져오기
+
+            if (content.trim() == "") {
+                alert("내용을 입력하세요.");
+                return;
+            }
+
+            // 로컬 스토리지에 저장
+            localStorage.setItem(date, content);
+            alert("일기가 저장되었습니다.");
+            document.getElementById("content").value = ""; // 내용 초기화
+        }
+
+        function viewDiary() {
+            // 일기 보기 페이지로 이동
+            window.open('practice12-4-view.html', '_blank');
+        }
+    </script>
+</body>
+</html>
