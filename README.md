@@ -26,10 +26,10 @@ week 5
 
 week 6
 - 이벤트 핸들링 코드 작성 실습
-- prac9-2.html : 라디오 버튼 클릭하면 이미지 생성(new Image(), 이벤트 리스너 onclick)
-- prac9-3.html : 식 입력하고 <Enter>키 치면, 결과 출력(이벤트 리스너 onkeydown, e.key ...)
+- prac9-2.html : 라디오 버튼 클릭하면 이미지 생성(new Image(),  onclick)
+- prac9-3.html : 식 입력하고 <Enter>키 치면, 결과 출력(onkeydown, e.key ...)
 - (**과제**)practice9-6.html : 마우스 휠을 사용한 이미지 확대, 축소(e.wheelDelta)
-- (**과제**)practice9-10.html : 계산기 만들기(button의 onclick 이벤트 리스너)
+- (**과제**)practice9-10.html : 계산기 만들기(button의 onclick)
 
 week 7
 - prac10-5.html : 페이지 로드되면 시계(setTimeout())
